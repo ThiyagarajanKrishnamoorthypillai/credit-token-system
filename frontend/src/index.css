@@ -1,0 +1,30 @@
+/* Center login container vertically */
+.login-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Dashboard card enhancements */
+  .dashboard-card {
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+  }
+  
+  /* Button styling */
+  .btn-primary {
+    border-radius: 2rem;
+    padding: 0.5rem 1.5rem;
+  }
+  
+  .btn-danger {
+    border-radius: 2rem;
+    padding: 0.5rem 1.5rem;
+  }
+  
+  /* Progress bar text */
+  .progress-bar {
+    font-weight: bold;
+  }
+  
