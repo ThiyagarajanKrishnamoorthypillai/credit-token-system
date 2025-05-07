@@ -1,0 +1,65 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+# Ignore environment files
+.env
+.env.*
+*.properties
+
+# Backend specific
+/backend/.env.properties
+/backend/src/main/resources/application.properties
+
+# AI server
+/ai-server/__pycache__/
+/ai-server/ai_service.py
+
+# Node, React, build stuff
+/node_modules
+/build
+/dist
+*.log
+
+# IDE/editor folders
+.vscode
+.idea
+.DS_Store
+
+
+# Secrets
+backend/.env.properties
+backend/src/main/resources/application.properties
+ai-server/.env
+
+echo "# root .gitignore updated" >> .gitignore
+
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
